@@ -1,0 +1,27 @@
+{
+  "name": "flone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./sass/main.scss ./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojammelhossen1/flone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojammelhossen1/flone/issues"
+  },
+  "homepage": "https://github.com/mojammelhossen1/flone#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.34.1"
+  }
+}
