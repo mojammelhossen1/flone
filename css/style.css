@@ -1,5 +1,12 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+.nav-link {
+  color: #555252 !important;
+}
+.nav-link:hover {
+  color: #BB75FD !important;
+}
+
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10729,6 +10736,106 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+body {
+  background: #f6f6f6;
+}
+
+.li-bar {
+  height: 12px;
+  width: 1px;
+  background-color: #737373;
+}
+
+.nav-icon {
+  font-size: 1.1rem;
+}
+
+.custom-dropdown {
+  position: relative;
+}
+.custom-dropdown:hover ul {
+  transform: scaleY(1);
+}
+.custom-dropdown ul {
+  position: absolute;
+  width: 95px;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: all 0.5s ease 0s;
+  background-color: #fff;
+  box-shadow: 0 1px 7px -2px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  line-height: 0.8;
+  z-index: 100;
+}
+.custom-dropdown ul li {
+  font-size: 13px;
+}
+
+.custom-dropdown2 {
+  position: relative;
+  box-sizing: border-box;
+}
+.custom-dropdown2:hover div {
+  transform: scaleY(1);
+}
+.custom-dropdown2 div {
+  position: absolute;
+  width: 700px;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: all 0.5s ease 0s;
+  background-color: #fff;
+  box-shadow: 0 1px 7px -2px rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  line-height: 1;
+  z-index: 100;
+}
+.custom-dropdown2 div ul {
+  margin-right: 55px;
+}
+.custom-dropdown2 div ul li {
+  font-size: 13px;
+}
+.custom-dropdown2 div ul li .nav-link-title {
+  color: black !important;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.custom-dropdown2 div ul li .nav-link-title:hover {
+  color: #BB75FD !important;
+  transform: translateX(0px);
+}
+.custom-dropdown2 div ul li a {
+  transition: all 0.5s ease 0s;
+}
+.custom-dropdown2 div ul li a:hover {
+  transform: translateX(15px);
+}
+.custom-dropdown2 div ul li:before {
+  content: "";
+  position: absolute;
+  display: block;
+  opacity: 0;
+  background-color: #BB75FD;
+  width: 8px;
+  height: 8px;
+  transform: translateY(9.3px);
+  border-radius: 50%;
+  transition: all 0.3s ease 0s;
+}
+.custom-dropdown2 div ul li:hover:before {
+  opacity: 1;
+}
+.custom-dropdown2 div ul .nav-link-title-h:before {
+  display: none !important;
+}
+
+.custom-dropdown4 div,
+.custom-dropdown5 div {
+  width: 245px;
 }
 
 /*# sourceMappingURL=style.css.map */
