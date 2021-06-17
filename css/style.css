@@ -10838,4 +10838,80 @@ body {
   width: 245px;
 }
 
+.carousel .carousel-inner .carousel-item {
+  height: 500px;
+  display: flex;
+}
+.carousel .carousel-inner .carousel-item .carousel-image {
+  display: flex;
+  justify-content: end;
+}
+.carousel .carousel-inner .carousel-item .carousel-image img {
+  animation: animate-text 2.4s;
+}
+.carousel .carousel-inner .carousel-item .carousel-image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.carousel .carousel-inner .carousel-item .carousel-image-container .carousel-text {
+  width: 32%;
+}
+.carousel .carousel-inner .carousel-item .carousel-image-container .carousel-text h3, .carousel .carousel-inner .carousel-item .carousel-image-container .carousel-text .h3 {
+  animation: animate-text 0.8s;
+}
+.carousel .carousel-inner .carousel-item .carousel-image-container .carousel-text h1, .carousel .carousel-inner .carousel-item .carousel-image-container .carousel-text .h1 {
+  font-size: 72px;
+  font-weight: 400;
+  margin-top: 20px;
+  animation: animate-text 1.6s;
+}
+.carousel .carousel-inner .carousel-item .carousel-image-container .carousel-text button {
+  text-transform: uppercase;
+  border-radius: 0px;
+  border: 1px solid black;
+  padding: 0.7rem 2.3rem;
+  transition: 0.4s;
+  margin-top: 20px;
+  animation: animate-text 1.9s;
+}
+.carousel .carousel-inner .carousel-item .carousel-image-container .carousel-text button:hover {
+  border: 1px solid #BB75FD;
+  background-color: #BB75FD;
+  color: #fff;
+}
+.carousel .carousel-inner .carousel-item .carousel-image-container .carousel-text2 {
+  width: 50%;
+}
+.carousel:hover .carousel-control-prev-icon {
+  opacity: 1;
+}
+.carousel:hover .carousel-control-next-icon {
+  opacity: 1;
+}
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+  filter: invert(100);
+  opacity: 0;
+  transition: 0.3s;
+}
+.carousel .carousel-control-prev {
+  left: -15rem;
+}
+.carousel .carousel-control-next {
+  right: -15rem;
+}
+
+@keyframes animate-text {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
