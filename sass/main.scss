@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 $font-family-sans-serif:'Poppins',
 sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
 
 .nav-link {
     color: #555252 !important;
@@ -188,7 +189,7 @@ body {
                         border-radius: 0px;
                         border: 1px solid black;
                         padding: 0.7rem 2.3rem;
-                        transition: .4s;
+                        transition: all 0.3s ease 0s;
                         margin-top: 20px;
                         animation: animate-text 1.9s;
 
@@ -221,7 +222,7 @@ body {
     .carousel-control-next-icon {
         filter: invert(100);
         opacity: 0;
-        transition: .3s;
+        transition: all 0.3s ease 0s;
     }
 
     .carousel-control-prev {
@@ -248,5 +249,78 @@ body {
     to {
         transform: translateY(0px);
         opacity: 1;
+    }
+}
+
+
+.single-banner {
+    border-radius: 2px;
+    border: 4px solid #fff;
+    overflow: hidden;
+
+    a {
+        img {
+            width: 100%;
+            position: relative;
+            transition: all 0.5s ease 0s;
+
+            &:hover {
+                transform: scale(1.13);
+            }
+        }
+    }
+
+    .banner-content {
+        position: absolute;
+        position: absolute;
+        transform: translate(30px, -190px);
+
+
+        h3,
+        h4,
+        span {
+            font-family: 'Cormorant Garamond',
+                serif;
+        }
+
+        h3 {
+            color: #617d05;
+            font-size: 36px;
+            font-weight: 600;
+            margin-top: 15px;
+
+        }
+
+        h4 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: -7px;
+        }
+
+        span {
+            color: #617d05;
+            font-size: 20px;
+        }
+
+        a {
+            color: #617d05;
+            width: 30px;
+            height: 30px;
+            border: 2px solid;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            margin-top: 50px;
+            transition: all 0.5s ease 0s;
+
+            &:hover {
+                color: #aabb72;
+            }
+
+        }
     }
 }
