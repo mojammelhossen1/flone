@@ -10823,7 +10823,7 @@ body {
   background-color: #BB75FD;
   width: 8px;
   height: 8px;
-  transform: translateY(9.3px);
+  transform: translateY(10px);
   border-radius: 50%;
   transition: all 0.3s ease 0s;
 }
@@ -11016,6 +11016,139 @@ body {
 }
 .tab-list .nav-item h4, .tab-list .nav-item .h4 {
   color: #555;
+}
+
+.image-card-wrapper .single-image-card {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 25px;
+}
+.image-card-wrapper .single-image-card:hover .hover-image, .image-card-wrapper .single-image-card:hover .same-hover-action {
+  opacity: 1 !important;
+  transform: translateY(0px) !important;
+}
+.image-card-wrapper .single-image-card .card-image-section {
+  position: relative;
+  overflow: hidden;
+}
+.image-card-wrapper .single-image-card .card-image-section img {
+  width: 100%;
+}
+.image-card-wrapper .single-image-card .card-image-section .active-image {
+  overflow: hidden;
+}
+.image-card-wrapper .single-image-card .card-image-section .hover-image {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 0.5s ease 0s;
+}
+.image-card-wrapper .single-image-card .card-image-section .hover-content {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+.image-card-wrapper .single-image-card .card-image-section .hover-content .same-hover-action {
+  transform: translateY(30px);
+  transition: all 0.5s ease 0s;
+  opacity: 0;
+}
+.image-card-wrapper .single-image-card .card-image-section .hover-content .same-hover-action button {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #A749FF;
+  border-radius: 0px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+.image-card-wrapper .single-image-card .card-image-section .hover-content .same-hover-action .btn2 {
+  border-left: 0.5px solid #ddd !important;
+  border-right: 0.5px solid #ddd !important;
+}
+.image-card-wrapper .single-image-card .card-image-section .hover-content .same-hover-action .btn1,
+.image-card-wrapper .single-image-card .card-image-section .hover-content .same-hover-action .btn3 {
+  padding: 10px 16px !important;
+}
+.image-card-wrapper .single-image-card .card-image-section .hover-content .hover-heart {
+  transition-delay: 0.1s;
+}
+.image-card-wrapper .single-image-card .card-image-section .hover-content .hover-wishlist {
+  width: inherit;
+  transition-delay: 0.2s;
+}
+.image-card-wrapper .single-image-card .card-image-section .hover-content .hover-view {
+  transition-delay: 0.3s;
+}
+.image-card-wrapper .single-image-card .card-image-section .card-badge {
+  width: 52px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+.image-card-wrapper .single-image-card .card-image-section .card-badge span {
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 3px;
+  display: block;
+  text-align: center;
+  padding: 0px 7px;
+}
+.image-card-wrapper .single-image-card .card-image-section .card-badge .pink {
+  background-color: #FA6BFF;
+  margin-bottom: 7px;
+}
+.image-card-wrapper .single-image-card .card-image-section .card-badge .purple {
+  background-color: #A749FF;
+}
+.image-card-wrapper .single-image-card .card-details h4, .image-card-wrapper .single-image-card .card-details .h4 {
+  margin-top: 25px;
+  text-align: center;
+}
+.image-card-wrapper .single-image-card .card-details h4 a, .image-card-wrapper .single-image-card .card-details .h4 a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.5s ease 0s;
+  color: #000;
+}
+.image-card-wrapper .single-image-card .card-details h4 a:hover, .image-card-wrapper .single-image-card .card-details .h4 a:hover {
+  color: #A749FF;
+}
+.image-card-wrapper .single-image-card .card-details .card-rating {
+  text-align: center;
+  margin-bottom: 3px;
+}
+.image-card-wrapper .single-image-card .card-details .card-rating i {
+  font-size: 15px;
+}
+.image-card-wrapper .single-image-card .card-details .card-rating .yellow {
+  color: #ffa900;
+}
+.image-card-wrapper .single-image-card .card-details .card-rating .gray {
+  color: #5a5a5a;
+}
+.image-card-wrapper .single-image-card .card-pricing {
+  text-align: center;
+}
+.image-card-wrapper .single-image-card .card-pricing span {
+  font-size: 15px;
+  font-weight: 400;
+}
+.image-card-wrapper .single-image-card .card-pricing .now,
+.image-card-wrapper .single-image-card .card-pricing .hyphen {
+  color: #000;
+}
+.image-card-wrapper .single-image-card .card-pricing .before {
+  color: #8e8e8e !important;
+  text-decoration: line-through;
 }
 
 /*# sourceMappingURL=style.css.map */
