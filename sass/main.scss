@@ -324,3 +324,61 @@ body {
         }
     }
 }
+
+.deals-section {
+    margin-top: 90px;
+    margin-bottom: 40px;
+    h2 {
+        font-size: 30px;
+        font-weight: 600;
+        display: inline-block;
+        margin: 0;
+        line-height: 36px;
+        position: relative;
+
+        &:before,
+        &:after {
+            content: "";
+            position: absolute;
+            background-color: #000;
+            height: 2px;
+            width: 80px;
+            top: 17px;
+
+        }
+
+        &:before {
+            left: -100px;
+        }
+
+        &:after {
+            right: -100px;
+        }
+    }
+}
+
+.tab-list {
+    justify-content: center;
+    .nav-item {
+        a {
+            .active {
+                color: #000;
+            }
+
+            h4 {
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: 500;
+                transition: all 0.5s ease 0s;
+
+                &:hover {
+                    color: #000;
+                }
+            }
+        }
+
+        h4 {
+            color: #555;
+        }
+    }
+}

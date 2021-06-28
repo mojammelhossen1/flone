@@ -10972,4 +10972,50 @@ body {
   color: #aabb72;
 }
 
+.deals-section {
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+.deals-section h2, .deals-section .h2 {
+  font-size: 30px;
+  font-weight: 600;
+  display: inline-block;
+  margin: 0;
+  line-height: 36px;
+  position: relative;
+}
+.deals-section h2:before, .deals-section .h2:before, .deals-section h2:after, .deals-section .h2:after {
+  content: "";
+  position: absolute;
+  background-color: #000;
+  height: 2px;
+  width: 80px;
+  top: 17px;
+}
+.deals-section h2:before, .deals-section .h2:before {
+  left: -100px;
+}
+.deals-section h2:after, .deals-section .h2:after {
+  right: -100px;
+}
+
+.tab-list {
+  justify-content: center;
+}
+.tab-list .nav-item a .active {
+  color: #000;
+}
+.tab-list .nav-item a h4, .tab-list .nav-item a .h4 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  transition: all 0.5s ease 0s;
+}
+.tab-list .nav-item a h4:hover, .tab-list .nav-item a .h4:hover {
+  color: #000;
+}
+.tab-list .nav-item h4, .tab-list .nav-item .h4 {
+  color: #555;
+}
+
 /*# sourceMappingURL=style.css.map */
