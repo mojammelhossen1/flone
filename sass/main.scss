@@ -582,7 +582,7 @@ body {
 
 .support-card {
     padding: 30px;
-    margin-bottom: 50px;
+    margin: 55px 0px;
 
     .animation {
         margin-bottom: 10px;
@@ -639,5 +639,58 @@ body {
         }
 
 
+    }
+}
+
+.subscribe-section {
+    h1 {
+        margin-top: 35px;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 36px;
+        color: #010101;
+    }
+
+    h5 {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #696969;
+        margin: 20px 0px;
+    }
+
+    .input-sec {
+        margin: 35px 0px;
+
+        .email-sec {
+            position: relative;
+
+            input {
+
+                width: 100%;
+                border: none;
+                outline: none;
+                background: none;
+                border-bottom: 2px solid #e2e2e2;
+                padding: 12px 5px;
+            }
+        }
+
+        .submit {
+
+
+            position: absolute;
+            top: 5px;
+            right: 0;
+            font-size: 27px;
+            align-items: center;
+            color: #cacaca;
+            transition: all 0.5s ease 0s;
+            cursor: pointer;
+
+            &:hover {
+                color: #010101;
+            }
+        }
     }
 }

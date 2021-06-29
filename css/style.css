@@ -11153,7 +11153,7 @@ body {
 
 .support-card {
   padding: 30px;
-  margin-bottom: 50px;
+  margin: 55px 0px;
 }
 .support-card .animation {
   margin-bottom: 10px;
@@ -11189,6 +11189,48 @@ body {
   100% {
     transform: rotate(0deg) scale(1);
   }
+}
+
+.subscribe-section h1, .subscribe-section .h1 {
+  margin-top: 35px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #010101;
+}
+.subscribe-section h5, .subscribe-section .h5 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #696969;
+  margin: 20px 0px;
+}
+.subscribe-section .input-sec {
+  margin: 35px 0px;
+}
+.subscribe-section .input-sec .email-sec {
+  position: relative;
+}
+.subscribe-section .input-sec .email-sec input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #e2e2e2;
+  padding: 12px 5px;
+}
+.subscribe-section .input-sec .submit {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 27px;
+  align-items: center;
+  color: #cacaca;
+  transition: all 0.5s ease 0s;
+  cursor: pointer;
+}
+.subscribe-section .input-sec .submit:hover {
+  color: #010101;
 }
 
 /*# sourceMappingURL=style.css.map */
