@@ -11067,6 +11067,10 @@ body {
   border: none;
   outline: none;
   padding: 10px;
+  transition: all 0.5s ease 0s;
+}
+.image-card-wrapper .single-image-card .card-image-section .hover-content .same-hover-action button:hover {
+  background-color: #000;
 }
 .image-card-wrapper .single-image-card .card-image-section .hover-content .same-hover-action .btn2 {
   border-left: 0.5px solid #ddd !important;

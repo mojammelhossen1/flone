@@ -463,6 +463,11 @@ body {
                         border: none;
                         outline: none;
                         padding: 10px;
+                        transition: all 0.5s ease 0s;
+
+                        &:hover {
+                            background-color: #000;
+                        }
                     }
 
                     .btn2 {
